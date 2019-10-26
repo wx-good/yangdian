@@ -46,7 +46,7 @@ export default {
         });
         },
         ret(){
-            this.$router.go(-1)
+            this.$router.push('/wo')
         },
         zhuc(){
             this.$router.push('/login')
